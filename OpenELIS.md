@@ -63,12 +63,6 @@ Continue community training and mentorship, ensuring that knowledge about writin
 
 ## Merged Pull Request Links
 
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2208 - Dictionary fix
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2206 - Test Management E2E
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2202 - Test Notification Config
-
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2183 - BatchTest Reassignment And Cancelation-E2E
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2164 - Result Reporting Configuration E2E
