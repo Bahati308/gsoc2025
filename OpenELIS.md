@@ -73,8 +73,6 @@ https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2134 - Fix: Dictionary and Use
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2104 - Dictionary-fix
 
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2103 - Dictionary-Fix
-
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2085 - General Configurations-E2E
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2075 - Fix: QA fix
@@ -111,8 +109,6 @@ https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1954 - Nonconform E2E fix
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1949 - QA troubleshoot
 
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1944 - E2E Hardening
-
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1887 - Revert "Updated breadcrumbs for Report"
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1847 - QA test-fix
@@ -135,8 +131,6 @@ https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1784 - fix: QA menu fix
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1782 - fix: batch test assignment
 
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1771 - fix: QA organization menu fix
-
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1764 - fix: batch test reassignment validation
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1759 - fix: barcode validation
@@ -151,55 +145,17 @@ https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1745 - fix: provider managemen
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1743 - fix: barcode e2e
 
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1741 - fix: result reporting configuration
-
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1740 - fix: reflex test QA
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1739 - fix: batch test e2e
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1738 - fix: menu QA
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1737 - fix: barcode page bug
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1736 - fix: configuration translation
 
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1735 - fix: QA menu bug
-
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1734 - fix: test config translation
 
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1733 - fix: provider QA
-
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1732 - fix: dictionary menu bug
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1731 - fix: user management translation
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1729 - fix: barcode QA
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1727 - fix: user management e2e
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1726 - fix: barcode translation
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1725 - fix: organization e2e
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1724 - fix: provider e2e
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1723 - fix: QA dictionary
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1722 - fix: test name QA
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1721 - fix: menu QA bug
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1720 - fix: dictionary config translation
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1719 - fix: barcode config QA
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1718 - fix: QA bug
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1717 - fix: translation bug
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1716 - fix: dictionary menu config bug
-
-https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1715 - fix: barcode translation bug
 
 ## Not Yet Merged.
 
