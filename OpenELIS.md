@@ -26,6 +26,19 @@ Investigating and fixing flaky tests, which often gave false negatives due to ti
 
 This optimization ensured the test suite could scale with future growth while staying efficient.
 
+### Example of a flaky selector
+
+  ``` 
+  // Using a CSS class that frequently changes
+
+  cy.get('.btn-primary').click();
+```
+Problem: .btn-primary may change if the design changes, or there may be multiple buttons with that class.
+ 
+Stable Version using data-cy:
+```
+cy.get('[data-cy="submit-button"]').click();
+```
 ## Integrate E2E tests into the CI/CD pipeline for automated validation
 
 A strong test suite is only valuable if it’s consistently used. To ensure long-term impact, I worked on integrating E2E tests directly into the CI/CD pipeline. Now, every pull request triggers automated test runs, blocking merges if critical workflows fail. This setup enforces a high standard of code quality, prevents regressions from slipping into production, and fosters confidence in continuous deployment. The integration also provides clear reporting for developers, helping them debug issues faster.
