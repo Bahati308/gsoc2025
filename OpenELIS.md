@@ -5,28 +5,24 @@ Over the course of GSoC, I worked on Improving E2E QA Tests—an initiative to b
 
 What follows is not just a technical log, but the story of how an idea went from proposal to production—complete with hurdles, breakthroughs, and lessons that will outlast the program itself.
 
+Thanks to my mentor and the community admin for making this possible. 
+
 ## Identify gaps in the current E2E test suite.
-The first step was understanding what wasn’t covered. Existing tests primarily validated surface-level interactions, leaving several edge cases and multi-step user journeys unchecked. For example, account recovery workflows, error-handling during network failures, and cross-browser behavior had little to no coverage. To tackle this, I conducted a systematic audit of the testing framework, cross-referencing user stories and production bugs against existing tests. This approach revealed clear blind spots and allowed us to prioritize critical areas that had the highest impact on user experience.
+The first step was understanding what wasn’t covered. Existing tests primarily validated surface-level interactions, leaving several edge cases and multi-step user journeys unchecked. To tackle this, I conducted a systematic audit of the testing framework, cross-referencing user stories and production bugs against existing tests. This approach revealed clear blind spots and allowed us (my mentor and I) to prioritize critical areas that had the highest impact on user experience.
 
 ## Develop and implement additional E2E test cases to achieve the desired coverage.
-
-Develop and implement additional E2E test cases to achieve the desired coverage
-
-With the gaps identified, the next task was writing robust test cases to expand coverage. The focus wasn’t only on quantity, but on writing meaningful tests that simulated real-world user behavior. I introduced new test suites for login flows, data persistence, error boundaries, and permissions management. Each new test was designed to be modular, maintainable, and easy for future contributors to extend. By the end of the cycle, the project had moved from ~30% coverage to over 80%, ensuring that nearly all critical workflows were consistently validated.
+With the gaps identified, the next task was writing robust test cases to expand coverage. The focus wasn’t only on quantity, but on writing meaningful tests that simulated real-world user behavior and that can be reliable for deployments. Each new test was designed to be modular, maintainable, and easy for future contributors to extend. By the end of the cycle, the project had moved from ~30% coverage to over 95%, ensuring that nearly all critical workflows were consistently validated.
 
 ## Optimize the test execution process to ensure efficiency and scalability
-
 As the number of test cases grew, execution time became a bottleneck. Running all tests sequentially slowed down developer feedback, which could discourage consistent usage. To address this, I optimized the testing process by:
 
 Enabling parallel test execution to reduce runtime.
-
-Categorizing tests into smoke tests, regression tests, and full workflows, allowing teams to run the right set at the right time.
 
 Investigating and fixing flaky tests, which often gave false negatives due to timing issues or unstable selectors.
 
 This optimization ensured the test suite could scale with future growth while staying efficient.
 
-### Example of a flaky selector
+### Example of a flaky selector formally used in some test cases 
 
   ``` 
   // Using a CSS class that frequently changes
@@ -35,17 +31,22 @@ This optimization ensured the test suite could scale with future growth while st
 ```
 Problem: .btn-primary may change if the design changes, or there may be multiple buttons with that class.
  
-Stable Version using data-cy:
+### Stable and reliable Version using data-cy:
 ```
 cy.get('[data-cy="submit-button"]').click();
 ```
 ## Integrate E2E tests into the CI/CD pipeline for automated validation
-
 A strong test suite is only valuable if it’s consistently used. To ensure long-term impact, I worked on integrating E2E tests directly into the CI/CD pipeline. Now, every pull request triggers automated test runs, blocking merges if critical workflows fail. This setup enforces a high standard of code quality, prevents regressions from slipping into production, and fosters confidence in continuous deployment. The integration also provides clear reporting for developers, helping them debug issues faster.
 
 ## Provide documentation and knowledge sharing to maintain test coverage over time
 
-One of the biggest risks for any test suite is neglect over time. To prevent this, I created contributor-friendly documentation covering how to write new test cases, how to run tests locally, and how to interpret CI/CD test reports. I also shared best practices with the team through knowledge-transfer sessions, ensuring that future contributors can maintain and expand the test suite without friction. This step was essential for making the work sustainable beyond the GSoC program.
+One of the biggest risks for any test suite is neglect over time. To prevent this, I created contributor-friendly documentation covering how to write new test cases, how to run tests locally, and how to interpret CI/CD test reports. I also shared best practices with the team through community call sessions, ensuring that future contributors can maintain and expand the test suite without friction. This step was essential for making the work sustainable beyond the GSoC program.
+
+### For detailed info, follow the link below
+
+```
+  https://uwdigi.atlassian.net/wiki/spaces/OG/pages/441516042/Selector+Update+Guide
+```
 
 ## Future Plans
 
