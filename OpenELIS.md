@@ -125,6 +125,11 @@ https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1734 - fix: test config transl
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/1732 - fix: dictionary menu bug
 
+view all PRs right here 
+```
+https://github.com/DIGI-UW/OpenELIS-Global-2/issues?q=state%3Aclosed%20is%3Apr%20author%3A%40me
+```
+
 ## Not Yet Merged.
 
 https://github.com/DIGI-UW/OpenELIS-Global-2/pull/2208 - Dictionary fix
